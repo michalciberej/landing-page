@@ -9,10 +9,16 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
+
+/* NAV BAR */
 
 ul {
     list-style: none;
@@ -31,7 +37,7 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: 900;
-    padding-left: 40px;
+    padding-left: 150px;
     color: var(--white)
 }
 
@@ -41,5 +47,52 @@ li {
 }
 
 li:nth-child(3) {
-    padding-right: 40px;
+    padding-right: 150px;
+}
+
+/* HERO */
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--white);
+    line-height: 80%;
+}
+
+.subtext {
+    color: var(--gray);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: var(--dark);
+    gap: 30px;
+}
+
+button {
+    color: var(--white);
+    background: var(--blue);
+    border: none;
+    border-radius: 5px;
+    padding: 4px 16px;
+    margin-top: 10px;
+}
+
+.left-part {
+    width: 400px;
+}
+
+.placeholder {
+    width: 400px;
+    height: 200px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
 }
