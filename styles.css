@@ -71,7 +71,7 @@ li:nth-child(3) {
     align-items: center;
     height: 350px;
     background: var(--dark);
-    gap: 100px;
+    gap: px;
 }
 
 button {
@@ -132,4 +132,32 @@ button {
     border: 3px solid var(--blue);
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+/* QUOTE */
+
+.quote-container {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    width: 800px;
+    font-size: 36px;
+    color: var(--dark);
+    font-style: oblique;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 900;
+    padding-right: 20px;
 }
